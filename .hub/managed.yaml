@@ -1,0 +1,67 @@
+parameters:
+  - name: application.bucket.endpoint
+    value: 'https://ml-minio.app.dev1.demo10.superhub.io'
+  - name: application.bucket.endpoint.internal
+    value: 'http://ml-minio.minio.svc.cluster.local:9000'
+  - name: application.bucket.name
+    value: default
+  - name: application.bucket.region
+    value: us-east-1
+  - name: application.description
+    value: >-
+      Kubeflow pipeline this is default install of Agile Stacks Kubeflow
+      pipelines
+  - name: application.humanName
+    value: Snehal KubeFlow ML
+  - name: application.name
+    value: snehal-kubeflow-ml
+  - name: application.training.docker.auth.basic.username
+    value: admin
+  - name: application.training.docker.auth.host
+    value: ml-harbor.svc.dev1.demo10.superhub.io
+  - name: application.training.docker.registry.image
+    value: ml-harbor.svc.dev1.demo10.superhub.io/library/snehal-kubeflow-ml
+  - name: application.training.docker.registry.kind
+    value: harbor
+  - name: application.training.docker.registry.url
+    value: ml-harbor.svc.dev1.demo10.superhub.io/library
+  - name: author.email
+    value: demo10.support@agilestacks.io
+  - name: author.id
+    value: 00u24z8mcid8plLyF2p7
+  - name: author.name
+    value: Demo10 Support
+  - name: author.organization
+    value: DEMO10
+  - name: component.dex.okta.appId
+    value: 0oa54ly0bvceVMACV2p7
+  - name: component.dex.okta.clientId
+    value: 0oa54ly0bvceVMACV2p7
+  - name: component.dex.okta.issuer
+    value: 'https://agilestacks.okta.com'
+  - name: component.github.repository.name
+    value: snehal-kubeflow-ml
+  - name: component.github.repository.organization
+    value: stackdemos
+outputs:
+  - name: application.bucket.endpoint
+  - name: application.bucket.endpoint.internal
+  - name: application.bucket.name
+  - name: application.bucket.region
+  - name: application.description
+  - name: application.humanName
+  - name: application.name
+  - name: application.training.docker.auth.basic.username
+  - name: application.training.docker.auth.host
+  - name: application.training.docker.registry.image
+  - name: application.training.docker.registry.kind
+  - name: application.training.docker.registry.url
+  - name: author.email
+  - name: author.id
+  - name: author.name
+  - name: author.organization
+  - name: component.dex.okta.appId
+  - name: component.dex.okta.clientId
+  - name: component.dex.okta.issuer
+  - name: component.github.repository.name
+  - name: component.github.repository.organization
